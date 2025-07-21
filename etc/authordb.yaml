@@ -3,11 +3,11 @@ affiliations:
     address:
       city: North Ryde
       country_code: Australia
-      example_expanded: Australian Astronomical Optics, Macquarie University,
-        North Ryde, NSW, Australia
+      example_expanded: Australian Astronomical Optics, Macquarie University, North
+        Ryde, NSW, Australia
       postcode: '2113'
       state: NSW
-      street: '105 Delhi Rd'
+      street: 105 Delhi Rd
     department: Australian Astronomical Optics
     email: mq.edu.au
     institute: Macquarie University
@@ -18,8 +18,8 @@ affiliations:
       country_code: USA
       example_expanded: American Astronomical Society
       postcode: '20006'
-      state: 'DC'
-      street: '1667 K Street NW, Suite 800'
+      state: DC
+      street: 1667 K Street NW, Suite 800
     department: null
     email: aas.org
     institute: American Astronomical Society
@@ -329,9 +329,11 @@ affiliations:
     address:
       city: Geneva
       country_code: Switzerland
-      example_expanded: CERN, Esplanade des Particules 1, P.O. Box, 1211 Geneva 23, Switzerland
+      example_expanded: CERN, Esplanade des Particules 1, P.O. Box, 1211 Geneva 23,
+        Switzerland
+      postcode: '1211'
+      state: null
       street: Esplanade des Particules 1
-      postcode: "1211"
     department: null
     email: cern.ch
     institute: European Organization for Nuclear Research
@@ -340,8 +342,8 @@ affiliations:
     address:
       city: Madrid
       country_code: Spain
-      example_expanded: Centro de Investigaciones Energ\'{e}ticas, Medioambientales y
-        Tecnol\'{o}gicas, Av. Complutense 40, 28040 Madrid, Spain
+      example_expanded: Centro de Investigaciones Energ\'{e}ticas, Medioambientales
+        y Tecnol\'{o}gicas, Av. Complutense 40, 28040 Madrid, Spain
       postcode: '28040'
       state: ''
       street: Av. Complutense 40
@@ -382,11 +384,12 @@ affiliations:
       city: Mexico City
       country_code: Mexico
       example_expanded: Consejo Nacional de Ciencia y Tecnolog\'{i}a, Av. Insurgentes
-        Sur 1582. Colonia Cr\'{e}dito Constructor, Del. Benito Ju\'{a}rez C.P. 03940, M\'{e}xico
-        D.F. M\'{e}xico
+        Sur 1582. Colonia Cr\'{e}dito Constructor, Del. Benito Ju\'{a}rez C.P. 03940,
+        M\'{e}xico D.F. M\'{e}xico
       postcode: C.P. 03940
       state: ''
-      street: Av. Insurgentes Sur 1582. Colonia Cr\'{e}dito Constructor, Del. Benito Ju\'{a}rez
+      street: Av. Insurgentes Sur 1582. Colonia Cr\'{e}dito Constructor, Del. Benito
+        Ju\'{a}rez
     department: null
     email: null
     institute: Consejo Nacional de Ciencia y Tecnolog\'{i}a
@@ -1107,8 +1110,8 @@ affiliations:
     address:
       city: Buenos Aires
       country_code: Argentina
-      example_expanded: Instituto de Astronom\'ia y F\'isica del Espacio (IAFE), Av. Inte.
-        G\"uiraldes 2620, C1428ZAA, Buenos Aires, Argentina
+      example_expanded: Instituto de Astronom\'ia y F\'isica del Espacio (IAFE), Av.
+        Inte. G\"uiraldes 2620, C1428ZAA, Buenos Aires, Argentina
       postcode: C1428ZAA
       state: ''
       street: Av. Inte. G\"uiraldes 2620
@@ -1139,8 +1142,8 @@ affiliations:
     address:
       city: Paris
       country_code: France
-      example_expanded: Universit\'{e} Paris Cit\'{e}, CNRS, CEA, Astroparticule et Cosmologie,
-        F-75013 Paris, France
+      example_expanded: Universit\'{e} Paris Cit\'{e}, CNRS, CEA, Astroparticule et
+        Cosmologie, F-75013 Paris, France
       postcode: F-75013
       state: ''
       street: ''
@@ -1189,14 +1192,15 @@ affiliations:
     address:
       city: Villeurbanne
       country_code: France
-      example_expanded: Universit\'{e} de Lyon, Universit\'{e} Claude Bernard Lyon 1, CNRS,
-        IP2I Lyon/IN2P3, F-69622 Villeurbanne, France
+      example_expanded: Universit\'{e} de Lyon, Universit\'{e} Claude Bernard Lyon
+        1, CNRS, IP2I Lyon/IN2P3, F-69622 Villeurbanne, France
       postcode: F-69622
       state: ''
       street: ''
     department: null
     email: ip2i.in2p3.fr
-    institute: Universit\'{e} de Lyon, Universit\'{e} Claude Bernard Lyon 1, CNRS, IP2I Lyon/IN2P3
+    institute: Universit\'{e} de Lyon, Universit\'{e} Claude Bernard Lyon 1, CNRS,
+      IP2I Lyon/IN2P3
     ror_id: 02avf8f85
   IN2P3-LAPP:
     address:
@@ -1237,7 +1241,8 @@ affiliations:
       street: ''
     department: null
     email: lpnhe.in2p3.fr
-    institute: Sorbonne Universit\'{e}, Universit\'{e} Paris Cit\'{e}, CNRS/IN2P3, LPNHE
+    institute: Sorbonne Universit\'{e}, Universit\'{e} Paris Cit\'{e}, CNRS/IN2P3,
+      LPNHE
     ror_id: 01hg8p552
   IN2P3-LPSC:
     address:
@@ -1276,7 +1281,7 @@ affiliations:
       state: ''
       street: Via Ugo la Malfa 153
     department: null
-    email: null
+    email: inaf.it
     institute: INAF Istituto di Astrofisica Spaziale e Fisica Cosmica di Palermo
     ror_id: 03qafph14
   INAF-OAC:
@@ -1289,7 +1294,7 @@ affiliations:
       state: ''
       street: Salita Moiariello 16
     department: null
-    email: null
+    email: inaf.it
     institute: INAF Osservatorio Astronomico di Capodimonte
     ror_id: 02fwden70
   INAF-OAS:
@@ -1302,7 +1307,7 @@ affiliations:
       state: ''
       street: Via P. Gobetti 93/3
     department: null
-    email: null
+    email: inaf.it
     institute: INAF Osservatorio di Astrofisica e Scienza dello Spazio Bologna
     ror_id: 00gqsp710
   INAF-OAT:
@@ -1315,7 +1320,7 @@ affiliations:
       state: ''
       street: Via Giovan Battista Tiepolo 11
     department: null
-    email: null
+    email: inaf.it
     institute: INAF Osservatorio Astronomico di Trieste
     ror_id: 00c9gth79
   INAF-Palermo:
@@ -1328,7 +1333,7 @@ affiliations:
       state: ''
       street: Piazza del Parlamento 1
     department: null
-    email: null
+    email: inaf.it
     institute: INAF - Osservatorio Astronomico di Palermo
     ror_id: 02txwfx92
   INAF-Rome:
@@ -1341,20 +1346,22 @@ affiliations:
       state: ''
       street: Viale del Parco Mellini 84
     department: null
-    email: null
+    email: inaf.it
     institute: Istituto Nazionale di Astrofisica
     ror_id: 02gh4kt33
   INSU-AIM:
     address:
       city: Gif-sur-Yvette
       country_code: France
-      example_expanded: Universit\'{e} Paris-Saclay, Universit\'{e} Paris Cit\'{e}, CEA, CNRS, AIM, F-91191 Gif-sur-Yvette, France
+      example_expanded: Universit\'{e} Paris-Saclay, Universit\'{e} Paris Cit\'{e},
+        CEA, CNRS, AIM, F-91191 Gif-sur-Yvette, France
       postcode: F-91191
       state: ''
       street: ''
     department: null
     email: cea.fr
-    institute: Universit\'{e} Paris-Saclay, Universit\'{e} Paris Cit\'{e}, CEA, CNRS, AIM
+    institute: Universit\'{e} Paris-Saclay, Universit\'{e} Paris Cit\'{e}, CEA, CNRS,
+      AIM
     ror_id: 0015h8611
   IPAC:
     address:
@@ -1373,8 +1380,8 @@ affiliations:
     address:
       city: Granada
       country_code: Spain
-      example_expanded: Instituto de Radioastronom\'ia Milim\'etrica, Av.\ Divina Pastora
-        7, N\'ucleo Central, E-18012 Granada, Spain
+      example_expanded: Instituto de Radioastronom\'ia Milim\'etrica, Av.\ Divina
+        Pastora 7, N\'ucleo Central, E-18012 Granada, Spain
       postcode: E-18012
       state: ''
       street: Av.\ Divina Pastora 7, N\'ucleo Central
@@ -1599,6 +1606,12 @@ affiliations:
     email: null
     institute: The LSST Corporation
     ror_id: 011494s34
+  LYON-etu:
+    address: null
+    department: null
+    email: etu.univ-lyon1.fr
+    institute: \'ETU Lyon 1
+    ror_id: null
   LancasterU:
     address:
       city: Lancaster
@@ -1769,8 +1782,8 @@ affiliations:
     address:
       city: Otwock
       country_code: Poland
-      example_expanded: National Centre of Nuclear Research, Andrzeja So\l{}tana 7, 05-400
-        Otwock, Poland
+      example_expanded: National Centre of Nuclear Research, Andrzeja So\l{}tana 7,
+        05-400 Otwock, Poland
       postcode: 05-400
       state: ''
       street: Andrzeja So\l{}tana 7
@@ -2431,7 +2444,7 @@ affiliations:
       country_code: USA
       example_expanded: TMT International Observatory
       postcode: ''
-      state: 'CA'
+      state: CA
       street: ''
     department: null
     email: null
@@ -2673,7 +2686,8 @@ affiliations:
       city: Ensenada
       country_code: Mexico
       example_expanded: Instituto de Astronom\'ia sede Ensenada, Universidad Nacional
-        Aut\'onoma de M\'{e}xico, Km 107, Carret. Tij.-Ens., Ensenada, 22060, BC, M\'{e}xico
+        Aut\'onoma de M\'{e}xico, Km 107, Carret. Tij.-Ens., Ensenada, 22060, BC,
+        M\'{e}xico
       postcode: '22060'
       state: BC
       street: Km 107, Carret. Tij.-Ens.
@@ -2776,8 +2790,8 @@ affiliations:
     address:
       city: Guanajuato
       country_code: Mexico
-      example_expanded: Departamento de F\'isica, DCI, Campus Le\'on, Universidad de Guanajuato,
-        37150, Le\'on, Guanajuato, M\'{e}xico
+      example_expanded: Departamento de F\'isica, DCI, Campus Le\'on, Universidad
+        de Guanajuato, 37150, Le\'on, Guanajuato, M\'{e}xico
       postcode: ''
       state: ''
       street: 37150, Le\'on
@@ -2994,7 +3008,7 @@ authors:
     affil:
     - SLAC
     altaffil: []
-    email: null
+    email: cadair
     family_name: Adair
     given_name: Christina L.
     orcid: 0009-0008-8623-871X
@@ -3165,7 +3179,7 @@ authors:
     affil:
     - IN2P3-LPNHE
     altaffil: []
-    email: null
+    email: p.antilogus@IN2P3
     family_name: Antilogus
     given_name: Pierre
     orcid: null
@@ -3514,10 +3528,10 @@ authors:
     affil:
     - SLAC
     altaffil: []
-    email: null
+    email: adam.bolton
     family_name: Bolton
     given_name: Adam
-    orcid: null
+    orcid: 0000-0002-9836-603X
   bondtw:
     affil:
     - SLAC
@@ -3687,6 +3701,14 @@ authors:
     family_name: Budlong
     given_name: Audrey
     orcid: null
+  buffatd:
+    affil:
+    - IN2P3-LPSC
+    altaffil: []
+    email: dimitri.buffat@LYON-etu
+    family_name: Buffat
+    given_name: Dimitri
+    orcid: null
   bullockjs:
     affil:
     - UCIrvine-CC
@@ -3787,7 +3809,7 @@ authors:
     affil:
     - INAF-IASF-Pa
     altaffil: []
-    email: null
+    email: rodolfo.canestrari
     family_name: Canestrari
     given_name: Rodolfo
     orcid: 0000-0003-4591-7763
@@ -3831,7 +3853,7 @@ authors:
     email: ross.ceballo
     family_name: Ceballo
     given_name: Ross
-    orcid: null
+    orcid: 0009-0000-9679-3911
   chandlerc:
     affil:
     - LINCC
@@ -3975,7 +3997,7 @@ authors:
     affil:
     - RubinObs
     altaffil: []
-    email: null
+    email: jcockrum
     family_name: Cockrum
     given_name: Joseph J.
     orcid: null
@@ -3999,7 +4021,7 @@ authors:
     affil:
     - RubinObsC
     altaffil: []
-    email: null
+    email: fcolleoni
     family_name: Colleoni
     given_name: Franco
     orcid: null
@@ -4152,7 +4174,7 @@ authors:
     affil:
     - IN2P3-IJCLAB
     altaffil: []
-    email: null
+    email: sylvie.dagoret-campagne
     family_name: Dagoret-Campagne
     given_name: Sylvie
     orcid: 0000-0003-1131-7030
@@ -4192,7 +4214,7 @@ authors:
     affil:
     - IN2P3-LPNHE
     altaffil: []
-    email: null
+    email: daubard
     family_name: Daubard
     given_name: Guillaume
     orcid: null
@@ -4603,6 +4625,14 @@ authors:
     family_name: Foss
     given_name: Michael D.
     orcid: null
+  fouchezd:
+    affil:
+    - IN2P3-CPPM
+    altaffil: []
+    email: fouchez
+    family_name: Fouchez
+    given_name: Dominique
+    orcid: 0000-0002-7496-3796
   frankj:
     affil:
     - BNL
@@ -4783,7 +4813,7 @@ authors:
     affil:
     - INAF-OAT
     altaffil: []
-    email: null
+    email: enrico.giro
     family_name: Giro
     given_name: Enrico
     orcid: 0000-0001-7301-8285
@@ -4881,7 +4911,7 @@ authors:
     affil:
     - WisconsinMadison
     altaffil: []
-    email: null
+    email: mrgorsuch
     family_name: Gorsuch
     given_name: Miranda R.
     orcid: 0000-0002-3135-3824
@@ -5019,7 +5049,7 @@ authors:
     affil:
     - SLAC
     altaffil: []
-    email: null
+    email: dhascall
     family_name: Hascall
     given_name: Diane
     orcid: null
@@ -5087,6 +5117,14 @@ authors:
     family_name: Herrold
     given_name: Ardis
     orcid: null
+  higgscr:
+    affil:
+    - RubinOps
+    altaffil: []
+    email: clare.higgs
+    family_name: Higgs
+    given_name: Clare R.
+    orcid: 0000-0001-8650-9665
   hilemane:
     affil:
     - RubinObs
@@ -5289,6 +5327,14 @@ authors:
     family_name: Jammes
     given_name: Fabrice
     orcid: null
+  jarugulas:
+    affil:
+    - Fermilab
+    altaffil: []
+    email: jarugula@Fermilab
+    family_name: Jarugula
+    given_name: Sreevani
+    orcid: 0000-0002-5386-7076
   jeej:
     affil:
     - Yonsei
@@ -5327,7 +5373,7 @@ authors:
     - Berkeley-Space
     altaffil:
     - Author is deceased
-    email: null
+    email: deceased@RubinObs
     family_name: Jernigan
     given_name: Garrett
     orcid: null
@@ -5391,7 +5437,7 @@ authors:
     affil:
     - Washington-DIRAC
     altaffil: []
-    email: null
+    email: mjuric
     family_name: Juri\'{c}
     given_name: Mario
     orcid: 0000-0003-1996-9252
@@ -5609,7 +5655,7 @@ authors:
     affil:
     - RubinObs
     altaffil: []
-    email: null
+    email: VKrabbendam
     family_name: Krabbendam
     given_name: Victor L.
     orcid: null
@@ -5690,7 +5736,7 @@ authors:
     affil:
     - IN2P3-LPSC
     altaffil: []
-    email: null
+    email: kusulja
     family_name: Kusulja
     given_name: Mile
     orcid: null
@@ -5714,7 +5760,7 @@ authors:
     affil:
     - UCDavis
     altaffil: []
-    email: null
+    email: cslage
     family_name: Lage
     given_name: Craig S.
     orcid: null
@@ -5771,7 +5817,7 @@ authors:
     affil:
     - IN2P3-LPNHE
     altaffil: []
-    email: null
+    email: didier.laporte
     family_name: Laporte
     given_name: Didier
     orcid: null
@@ -5835,10 +5881,10 @@ authors:
     affil:
     - StonyBrookU
     altaffil: []
-    email: null
+    email: benjamin.c.levine
     family_name: Levine
-    given_name: Ben
-    orcid: null
+    given_name: Benjamin
+    orcid: 0000-0001-8000-1959
   levined:
     affil:
     - IPAC
@@ -6028,7 +6074,7 @@ authors:
     affil:
     - SLAC-Kavli
     altaffil: []
-    email: null
+    email: madejski
     family_name: Madejski
     given_name: Greg M.
     orcid: null
@@ -6102,7 +6148,7 @@ authors:
     affil:
     - SLAC-Kavli
     altaffil: []
-    email: null
+    email: marshall
     family_name: Marshall
     given_name: Stuart
     orcid: null
@@ -6343,7 +6389,7 @@ authors:
     affil:
     - IN2P3-IJCLAB
     altaffil: []
-    email: null
+    email: marc.moniez
     family_name: Moniez
     given_name: Marc
     orcid: null
@@ -6371,6 +6417,14 @@ authors:
     family_name: Moolekamp
     given_name: Fred E.
     orcid: 0000-0003-0093-4279
+  moralesmarincal:
+    affil:
+    - RubinObsC
+    altaffil: []
+    email: cmorales
+    family_name: Morales Mar{\'\i}n
+    given_name: C.A.L.
+    orcid: 0000-0003-0203-3407
   moriartyc:
     affil:
     - Harvard-CfA
@@ -6451,6 +6505,14 @@ authors:
     family_name: Murillo
     given_name: Angela
     orcid: null
+  napierk:
+    affil:
+    - SLAC-Kavli
+    altaffil: []
+    email: kanapier
+    family_name: Napier
+    given_name: Kate
+    orcid: 0000-0003-4470-1696
   narayananks:
     affil:
     - Cochin
@@ -6495,7 +6557,7 @@ authors:
     affil:
     - Fermilab
     altaffil: []
-    email: null
+    email: neilsen
     family_name: Neilsen, Jr.
     given_name: Eric H.
     orcid: 0000-0002-7357-0317
@@ -6706,7 +6768,7 @@ authors:
     affil:
     - SLAC
     altaffil: []
-    email: null
+    email: sosier
     family_name: Osier
     given_name: Shawn
     orcid: null
@@ -6714,7 +6776,7 @@ authors:
     affil:
     - Washington
     altaffil: []
-    email: null
+    email: rowen
     family_name: Owen
     given_name: Russell E.
     orcid: null
@@ -7025,6 +7087,14 @@ authors:
     family_name: Rabus
     given_name: Markus
     orcid: 0000-0003-2935-7196
+  racineb:
+    affil:
+    - IN2P3-CPPM
+    altaffil: []
+    email: racine
+    family_name: Racine
+    given_name: Benjamin
+    orcid: 0000-0001-8861-3052
   radekav:
     affil:
     - BNL
@@ -7057,6 +7127,14 @@ authors:
     family_name: Rajagopal
     given_name: Jayadev
     orcid: null
+  ramelm:
+    affil:
+    - IN2P3-LPSC
+    altaffil: []
+    email: manon.ramel
+    family_name: Ramel
+    given_name: Manon
+    orcid: null
   ranabhata:
     affil:
     - AAO
@@ -7064,7 +7142,7 @@ authors:
     email: arianna.ranabhat
     family_name: Ranabhat
     given_name: Arianna
-    orcid: null
+    orcid: 0000-0002-6112-9778
   rasmussenap:
     affil:
     - SLAC-Kavli
@@ -7134,7 +7212,7 @@ authors:
     affil:
     - RubinObs
     altaffil: []
-    email: null
+    email: tribeiro
     family_name: Ribeiro
     given_name: Tiago
     orcid: null
@@ -7219,6 +7297,14 @@ authors:
     family_name: Roberts
     given_name: Austin
     orcid: null
+  robertsonbe:
+    affil:
+    - UCSC
+    altaffil: []
+    email: brant
+    family_name: Robertson
+    given_name: Brant E.
+    orcid: 0000-0002-4271-0364
   robinsons:
     affil:
     - BNL
@@ -7231,7 +7317,7 @@ authors:
     affil:
     - IPAC
     altaffil: []
-    email: null
+    email: roby
     family_name: Roby
     given_name: William
     orcid: null
@@ -7239,7 +7325,7 @@ authors:
     affil:
     - INAF-OAS
     altaffil: []
-    email: null
+    email: gabriele.rodeghiero
     family_name: Rodeghiero
     given_name: Gabriele
     orcid: 0000-0002-3469-9863
@@ -7254,8 +7340,9 @@ authors:
   rosignolil:
     affil:
     - Bologna-Phys
+    - INAF-OAS
     altaffil: []
-    email: null
+    email: luca.rosignoli@INAF-OAS
     family_name: Rosignoli
     given_name: Luca
     orcid: 0000-0002-0327-5929
@@ -7416,7 +7503,7 @@ authors:
     affil:
     - SLAC-Kavli
     altaffil: []
-    email: null
+    email: rafe
     family_name: Schindler
     given_name: Rafe H.
     orcid: null
@@ -7489,7 +7576,7 @@ authors:
     affil:
     - RubinObsC
     altaffil: []
-    email: null
+    email: jsebag
     family_name: Sebag
     given_name: Jacques
     orcid: null
@@ -7836,7 +7923,7 @@ authors:
     affil:
     - Washington
     altaffil: []
-    email: null
+    email: suberlak
     family_name: Suberlak
     given_name: Chris
     orcid: null
@@ -7891,9 +7978,10 @@ authors:
     orcid: null
   tarantoa:
     affil:
+    - INAF-OAS
     - Bologna-Phys
     altaffil: []
-    email: null
+    email: alessio.taranto
     family_name: Taranto
     given_name: Alessio
     orcid: 0009-0009-3271-3498
@@ -8045,7 +8133,7 @@ authors:
     affil:
     - Fermilab
     altaffil: []
-    email: null
+    email: dtucker
     family_name: Tucker
     given_name: Douglas L.
     orcid: 0000-0001-7211-5729
@@ -8077,7 +8165,7 @@ authors:
     affil:
     - UCDavis
     altaffil: []
-    email: null
+    email: tyson@RubinObs
     family_name: Tyson
     given_name: J. Anthony
     orcid: 0000-0002-9242-8797
@@ -8386,7 +8474,7 @@ authors:
     affil:
     - NOIRLab
     altaffil: []
-    email: null
+    email: christina.williams
     family_name: Williams
     given_name: Christina C.
     orcid: 0000-0003-2919-7495
