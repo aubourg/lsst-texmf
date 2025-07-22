@@ -322,6 +322,12 @@ class AuthorTextGenerator(ABC):
         """
         raise NotImplementedError()
 
+    def generate_authortex(self, author: Author) -> list[str]:
+        """Return multi-line representation for one author
+        (optional override).
+        """
+        raise NotImplementedError(f"{self.__class__.__name__} does not implement single-line output")
+
 
 class AASTeX(AuthorTextGenerator):
     """AASTeX 6 specific generation."""
@@ -349,17 +355,23 @@ class AASTeX(AuthorTextGenerator):
         """Generate AASTeX format."""
         lines = []
         for author in self.authors:
-            lines.append("")
-            # Text depends on aastex 7 vs 6.
-            parentext = self._generate_paren_text(author)
-            lines.append(rf"\author{parentext}{{{author.full_latex_name}}}")
-            for alt in author.altaffil:
-                lines.append(rf"\altaffiliation{{{alt}}}")
-            for affil in author.affiliations:
-                lines.append(rf"\affiliation{{{affil.get_full_address_with_institute()}}}")
-            lines.append(rf"\email{{{author.email}}}")
-
+            for line in self.generate_authortex(author):
+                lines.append(line)
         return self.get_header() + "\n".join(lines)
+
+    def generate_authortex(self, author: Author) -> list[str]:
+        """Return the AASTeX line for a single author."""
+        lines = []
+        lines.append("")
+        # Text depends on aastex 7 vs 6.
+        parentext = self._generate_paren_text(author)
+        lines.append(rf"\author{parentext}{{{author.full_latex_name}}}")
+        for alt in author.altaffil:
+            lines.append(rf"\altaffiliation{{{alt}}}")
+        for affil in author.affiliations:
+            lines.append(rf"\affiliation{{{affil.get_full_address_with_institute()}}}")
+        lines.append(rf"\email{{{author.email}}}")
+        return lines
 
 
 class AASTeX7(AASTeX):
@@ -624,11 +636,16 @@ def dump_csvall(factory: AuthorFactory) -> None:
     """
     author_ids = factory.get_author_ids()
     with open("authors.csv", "w") as outf:
-        print("Rubin ID, Name, Affiliation(s)", file=outf)
+        print("Rubin AuthorID, Name, Affiliation(s), AASTEX", file=outf)
+        aas7_generator = AASTeX7([])
         for authorid in author_ids:
             author = factory.get_author(authorid)
             affils = " | ".join(a.get_full_address_with_institute() for a in author.affiliations)
-            line = f'{authorid},{latex2text(author.full_name)},"{latex2text(affils)}"'
+            # Generate aas7 string using the AASTeX7 generator
+            aas7_text = "\n".join(aas7_generator.generate_authortex(author))
+            # the email should not be plain ..
+            aas7_text = aas7_text.replace("@", " AT ")
+            line = f'{authorid},{latex2text(author.full_name)},"{latex2text(affils)}","{aas7_text}"'
             print(line, file=outf)
     affil_ids = factory.get_affiliation_ids()
     with open("affiliations.csv", "w") as outf:
